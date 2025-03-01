@@ -2,7 +2,7 @@
   display: flex;
   flex: 1;
   height: 7rem !important;
-  width: 10rem !important;
+  /* width: 10rem !important; */
   border-radius: 0.7rem;
   color: white;
   position: relative;

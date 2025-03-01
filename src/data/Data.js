@@ -6,6 +6,9 @@ import { SiSimpleanalytics } from "react-icons/si";
 import { MdAttachMoney } from "react-icons/md";
 import { FaMoneyCheckAlt } from "react-icons/fa";
 import { GiPayMoney } from "react-icons/gi";
+import img1 from "../assets/d.png";
+import img2 from "../assets/I.jpg";
+import img3 from "../assets/dks.jpg";
 
 //sidebar data
 export const SidebarData = [
@@ -81,5 +84,27 @@ export const CardsData = [
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
+  },
+];
+
+//for the updates
+export const UpdatesData = [
+  {
+    img: img1,
+    name: "Dinesh Budhathoki",
+    noti: "has ordered shushi platter.",
+    time: "3 seconds ago",
+  },
+  {
+    img: img2,
+    name: "Indra",
+    noti: "has ordered pasta.",
+    time: "5 seconds ago",
+  },
+  {
+    img: img3,
+    name: "Ducks",
+    noti: "has ordered chicken parmi.",
+    time: "2 minuts ago",
   },
 ];
