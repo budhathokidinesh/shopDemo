@@ -1,0 +1,8 @@
+/* Media Queiry for the mobile view  */
+@media screen and (max-width: 768px) {
+  .CustomerReview {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 1rem;
+  }
+}

@@ -3,3 +3,16 @@
   flex-direction: column;
   justify-content: space-evenly;
 }
+/* Media Queiry tablet view*/
+@media screen and (max-width: 1200px) {
+  .MainDash {
+    justify-content: flex-start;
+    margin: 2rem;
+  }
+}
+/* Media Queiry  for the mobile view*/
+@media screen and (max-width: 768px) {
+  .MeinDash {
+    align-items: center;
+  }
+}

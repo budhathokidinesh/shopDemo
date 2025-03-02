@@ -84,3 +84,20 @@
 .chartContainer {
   width: 70%;
 }
+/* Media Queiry tablet view*/
+@media screen and (max-width: 1200px) {
+  .ExpandedCard {
+    top: 2rem;
+    height: 70%;
+    left: 6rem;
+  }
+}
+/* Media Queiry  for the mobile view*/
+@media screen and (max-width: 768px) {
+  .ExpandedCard {
+    top: 8rem;
+    height: 50%;
+    left: 1rem;
+    width: 80%;
+  }
+}

@@ -44,3 +44,20 @@
 .Rejected {
   color: red !important;
 }
+/* Media Queiry tablet view*/
+@media screen and (max-width: 1200px) {
+  .TableContainer {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+/* Media Queiry  for the mobile view*/
+@media screen and (max-width: 768px) {
+  .TableContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+  }
+}
